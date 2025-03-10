@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.four').hide().delay(3000).fadeIn(2200);
+            $('.button').hide().delay(8000).fadeIn(2200);
+        });
+    </script>
+    <style>
+        body {
+            background-image: url("hbd3.jpeg");
+        }
+        
+        p {
+            margin: auto;
+            font-size: 20px;
+        }
+        
+        .button {
+            background-color: #374fbb;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <audio loop autoplay>
+        <source src="hbd.mp3" type="audio/mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <div class="four">
+        <div class="text-box">
+            <p class="hbd-chatbox">
+                Jangan lupa baca notesnya yaa
+            </p>
+        </div>
+    </div>
+    <div class="button">
+        <a href="index.html">Back</a>
+    </div>
+</body>
+
+</html>
